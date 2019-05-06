@@ -35,7 +35,7 @@ public class SecondActivity extends AppCompatActivity {
         textView.setText(message);
     }
 
-    private Transition customTransition () {
+    private Transition customTransition() {
         Transition transition = null;
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             transition = new ChangeBounds();
